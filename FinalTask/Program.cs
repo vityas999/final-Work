@@ -38,7 +38,7 @@ void PrintArray(string[] array)
 
 void main()
 {
-    string[] array = new string[6] { "124", "that", "0000", "8553535", "it", "not" };
+    string[] array = new string[6] { "124", "that", "000000", "88005553535", "it", "not" };
     string[] sortArray = new string[array.Length];
     string[] result = ArrayWithIf(array, sortArray);
     PrintArray(array);
